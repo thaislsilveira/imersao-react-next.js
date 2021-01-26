@@ -1,10 +1,11 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { shade } from 'polished';
 
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid #4CAF50;
-  background-color: #1C1814;
+  border: 1px solid #f9a825;
+  background-color: #bf996f;
   border-radius: 4px;
   overflow: hidden;
 
@@ -44,6 +45,47 @@ Widget.Content = styled.div`
   ul {
     list-style: none;
     padding: 0;
+  }
+
+  form {
+    margin: 40px 0;
+    text-align: center;
+
+    .form-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    input {
+      padding: 10px;
+      height: 32px;
+      flex: 1;
+      border: 0;
+      background-color: #94443f;
+      border-radius: 10px 0px 0px 10px;
+      color: #fff;
+
+      &::placeholder {
+        color: #fff;
+      }
+    }
+
+    button {
+      background: #f9a825;
+      height: 32px;
+      border-radius: 0px 10px 10px 0px;
+      border: 0;
+      padding: 0 16px;
+      color: #fff;
+      width: 100%;
+      font-weight: 500;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background: ${shade(0.2, '#f9a825')};
+      }
+    }
   }
 `;
 
