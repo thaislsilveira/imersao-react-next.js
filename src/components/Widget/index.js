@@ -4,7 +4,7 @@ import { shade } from 'polished';
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid #f9a825;
+  border: 1px solid #6a697c;
   background-color: #bf996f;
   border-radius: 4px;
   overflow: hidden;
@@ -62,7 +62,7 @@ Widget.Content = styled.div`
       height: 32px;
       flex: 1;
       border: 0;
-      background-color: #94443f;
+      background-color: #6293db;
       border-radius: 10px 0px 0px 10px;
       color: #fff;
 
@@ -71,8 +71,8 @@ Widget.Content = styled.div`
       }
     }
 
-    button {
-      background: #f9a825;
+    .button-home {
+      background: #fad300;
       height: 32px;
       border-radius: 0px 10px 10px 0px;
       border: 0;
@@ -83,9 +83,32 @@ Widget.Content = styled.div`
       transition: background-color 0.2s;
 
       &:hover {
-        background: ${shade(0.2, '#f9a825')};
+        background: ${shade(0.2, '#fad300')};
+      }
+
+      &:disabled {
+        background-color: #979797;
+        cursor: not-allowed;
       }
     }
+  }
+`;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
   }
 `;
 

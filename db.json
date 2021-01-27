@@ -4,25 +4,27 @@
   "description": "Teste os seus conhecimentos sobre Gatinhos",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
+      "image": "https://media.giphy.com/media/GxQABXQhII7cY/giphy.gif",
+      "title": "Em média um gato dorme quantas horas por dia?",
       "description": "Essa é pra aquecer",
       "answer": 2,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "5 - 8 horas ",
+        "9 - 11 horas",
+        "12 - 17 horas",
+        "mais de 20 horas"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/JhUZYdpnqrgcM/giphy.gif",
+      "title": "Em quais países gatos pretos são sinal de boa sorte?",
+      "description": "Para pensar",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e1bee7, #9198e5);",
-         "background: gradient(#e1bee7, #9198e5);"
+         "Países asiáticos, Inglaterra e Irlanda",
+         "EUA e México",
+         "Brasil e Argentina",
+         "Países Europeus"
       ]
     }
   ],
@@ -31,8 +33,10 @@
   ],
   "theme": {
     "colors": {
-      "primary": "#914715",
+      "primary": "#fad300",
       "secondary": "#c69157",
+      "button": "#f9a825",
+      "github": "#6293db",
       "mainBg": "#757de8",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",

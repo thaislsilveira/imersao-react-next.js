@@ -9,11 +9,12 @@
   },
   "dependencies": {
     "next": "latest",
+    "next-images": "^1.7.0",
+    "polished": "^3.5.1",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
-    "styled-components": "^5.0.0",
-    "polished": "^3.5.1"
+    "styled-components": "^5.0.0"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.8.0",
