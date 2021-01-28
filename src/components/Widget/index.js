@@ -92,6 +92,12 @@ Widget.Content = styled.div`
       }
     }
   }
+
+  a {
+      color: #6293db;
+      text-decoration: none;
+      cursor: pointer;
+    }
 `;
 
 Widget.Topic = styled.a`

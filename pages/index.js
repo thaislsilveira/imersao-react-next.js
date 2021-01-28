@@ -52,7 +52,14 @@ export default function Home() {
           <Widget.Content>
             <h1>Quizes da Galera</h1>
 
-            <p>lorem ipsum dolor sit amet...</p>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://aluraquiz-base-git-main.alura-challenges.vercel.app/"
+            >
+              Desafio CSS
+
+            </a>
           </Widget.Content>
         </Widget>
         <Footer />
