@@ -1,10 +1,8 @@
 import React from 'react';
 
-import Image from 'next/image';
-
 import Widget from '../Widget';
 
-import Loading from '../../../public/assets/loading.gif';
+import Loading from '../../../public/assets/cat.gif';
 
 export default function LoadingWidget() {
   return (
@@ -14,12 +12,7 @@ export default function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <Image
-          src={Loading}
-          alt="Loading"
-          width={500}
-          height={500}
-        />
+        <Widget.Image backgroundImage={Loading} />
       </Widget.Content>
     </Widget>
   );
