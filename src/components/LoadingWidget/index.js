@@ -1,8 +1,9 @@
 import React from 'react';
+import db from '../../../db.json';
 
 import Widget from '../Widget';
 
-import Loading from '../../../public/assets/cat.gif';
+// import Loading from '../../../public/assets/cat.gif';
 
 export default function LoadingWidget() {
   return (
@@ -12,7 +13,7 @@ export default function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <Widget.Image backgroundImage={Loading} />
+        <Widget.Image backgroundImage={db.loading} />
       </Widget.Content>
     </Widget>
   );
