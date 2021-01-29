@@ -13,7 +13,7 @@ export default function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <Widget.Image backgroundImage={db.loading} />
+        <Widget.Image backgroundImage="https://i.gifer.com/5FBP.gif" backgroundSize="cover" />
       </Widget.Content>
     </Widget>
   );
