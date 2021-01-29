@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { Player } from '@lottiefiles/react-lottie-player';
+import Lottie from 'react-lottie-player';
 
 import Widget from '../Widget';
+
+import Loading from '../../../public/assets/lf30_editor_evmcvfy9.json';
 
 export default function LoadingWidget() {
   return (
@@ -12,10 +14,10 @@ export default function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <Player
-          autoplay
+        <Lottie
+          play
           loop
-          src="https://assets4.lottiefiles.com/packages/lf20_w6urrngw.json"
+          animationData={Loading}
           style={{ height: '300px', width: '300px' }}
         />
       </Widget.Content>
