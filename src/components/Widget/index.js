@@ -4,8 +4,8 @@ import { shade } from 'polished';
 const Widget = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  border: 1px solid #6a697c;
-  background-color: #bf996f;
+  border: 1px solid #602c21;
+  background-color: #e9a392;
   border-radius: 4px;
   overflow: hidden;
 
@@ -61,42 +61,44 @@ Widget.Content = styled.div`
       padding: 10px;
       height: 32px;
       flex: 1;
-      border: 0;
-      background-color: #6293db;
+      border: none;
+      background-color: #fbf8f3;
       border-radius: 10px 0px 0px 10px;
-      color: #fff;
+      color: #602c21;
 
       &::placeholder {
-        color: #fff;
+        color: #602c21;
+        border: none;
       }
     }
 
     .button-home {
-      background: #fad300;
+      background: #EC6D50;
       height: 32px;
       border-radius: 0px 10px 10px 0px;
       border: 0;
       padding: 0 16px;
-      color: #fff;
+      color: #602c21;
       width: 100%;
       font-weight: 500;
       transition: background-color 0.2s;
 
       &:hover {
-        background: ${shade(0.2, '#fad300')};
+        background: ${shade(0.2, '#EC6D50')};
       }
 
       &:disabled {
-        background-color: #979797;
+        background-color: #f2cec2;
         cursor: not-allowed;
       }
     }
   }
 
   a {
-      color: #6293db;
+      color: #602c21;
       text-decoration: none;
       cursor: pointer;
+      background-color: #fbf8f3 !important;
     }
 `;
 

@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
-  background-color: #00000040;
+  background-color: rgba(242, 206, 194, 0.6);
+  opacity: 0.5;
   padding: 20px;
   display: flex;
   align-items: center;

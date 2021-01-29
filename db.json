@@ -26,17 +26,84 @@
          "Brasil e Argentina",
          "Países Europeus"
       ]
+    },
+    {
+      "image": "https://media.giphy.com/media/ToMjGppLes0ENI5osCc/giphy.gif",
+      "title": "Por onde os gatos suam?",
+      "description": "Desafio",
+      "answer": 3,
+      "alternatives": [
+         "Pelas axilas",
+         "Através da pele do corpo todo",
+         "Os gatos não suam",
+         "Pelas patas"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13borq7Zo2kulO/giphy.gif",
+      "title": "Qual é a raça mais popular de gato?",
+      "description": "Famosa essa em!",
+      "answer": 1,
+      "alternatives": [
+         "Siamês",
+         "Persa",
+         "Sphynx",
+         "Mau egípcio"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/cHqUlvvPvperS/giphy.gif",
+      "title": "Gatos podem sentir terremotos com 15 minutos de antecendência ?",
+      "description": "Até eu fiquei curioso!",
+      "answer": 0,
+      "alternatives": [
+         "Verdadeiro",
+         "Falso"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/7NUDCypKavZzkQGyp9/giphy.gif",
+      "title": "Gatos nunca mordem os donos mesmo na hora de demonstrar carinho?",
+      "description": "Dúvido que você acerta essa",
+      "answer": 1,
+      "alternatives": [
+         "Verdadeiro",
+         "Falso"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/WXB88TeARFVvi/giphy.gif",
+      "title": "Marque a alternativa falsa. Para ter gatos é importante telar a casa. Por quê?",
+      "description": "Importante em!",
+      "answer": 3,
+      "alternatives": [
+         "Podem pegar  FIV e a FELV, popularmente conhecidas como aids e a leucemia felina",
+         "Atropelamentos",
+         "Ser morto em brigas com outros gatos ou cães",
+         "Nada disso é importante, o gato foi feito para ser livre"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/7JG48OKLLOseI/giphy.gif",
+      "title": "Gatos amam seus donos?",
+      "description": "Essa eu sei responder em, não vai errar!",
+      "answer": 0,
+      "alternatives": [
+         "Claro que sim",
+         "Não, gatos não são sociais"
+      ]
     }
   ],
   "external": [
-    ""
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
   ],
   "theme": {
     "colors": {
-      "primary": "#fad300",
+      "primary": "#EC6D50",
       "secondary": "#c69157",
-      "button": "#f9a825",
-      "github": "#6293db",
+      "button": "#EC6D50",
+      "github": "#e9a392",
       "mainBg": "#757de8",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
