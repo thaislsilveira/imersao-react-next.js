@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Lottie from 'react-lottie-player';
+import Image from 'next/image';
 
 import Widget from '../Widget';
 
-import Loading from '../../../public/assets/lf30_editor_evmcvfy9.json';
+import Loading from '../../../public/assets/loading.gif';
 
 export default function LoadingWidget() {
   return (
@@ -14,11 +14,11 @@ export default function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <Lottie
-          play
-          loop
-          animationData={Loading}
-          style={{ height: '300px', width: '300px' }}
+        <Image
+          src={Loading}
+          alt="Loading"
+          width={500}
+          height={500}
         />
       </Widget.Content>
     </Widget>
