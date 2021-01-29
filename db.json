@@ -1,7 +1,7 @@
 {
   "bg": "https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg?cs=srgb&dl=pexels-pixabay-57416.jpg&fm=jpg",
   "title": "Quiz Gatinhos da Alura",
-  "loading": "https://github.com/thaislsilveira/imersao-react-next.js/blob/main/public/assets/cat.gif",
+  "loading": "https://i.gifer.com/5FBP.gif",
   "description": "Teste os seus conhecimentos sobre Gatinhos",
   "questions": [
     {
