@@ -15,7 +15,7 @@ export default function LoadingWidget() {
         <Player
           autoplay
           loop
-          src="https://imersao-react-next-js-bwbq5mhdw.vercel.app/assets/lf30_editor_evmcvfy9.json"
+          src="https://assets4.lottiefiles.com/packages/lf20_w6urrngw.json"
           style={{ height: '300px', width: '300px' }}
         />
       </Widget.Content>
