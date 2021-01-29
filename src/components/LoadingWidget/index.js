@@ -15,7 +15,7 @@ export default function LoadingWidget() {
         <Player
           autoplay
           loop
-          src="../assets/lf30_editor_evmcvfy9.json"
+          src="/assets/lf30_editor_evmcvfy9.json"
           style={{ height: '300px', width: '300px' }}
         />
       </Widget.Content>
