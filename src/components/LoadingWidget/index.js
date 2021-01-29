@@ -1,9 +1,10 @@
 import React from 'react';
-import db from '../../../db.json';
+
+import { Player } from '@lottiefiles/react-lottie-player';
+
+import LoadingCat from '../../../public/assets/lf30_editor_evmcvfy9.json';
 
 import Widget from '../Widget';
-
-// import Loading from '../../../public/assets/cat.gif';
 
 export default function LoadingWidget() {
   return (
@@ -13,7 +14,12 @@ export default function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        <Widget.Image backgroundImage="https://i.gifer.com/5FBP.gif" backgroundSize="cover" />
+        <Player
+          autoplay
+          loop
+          src={LoadingCat}
+          style={{ height: '300px', width: '300px' }}
+        />
       </Widget.Content>
     </Widget>
   );

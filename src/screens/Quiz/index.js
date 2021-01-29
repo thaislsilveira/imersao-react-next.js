@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { Lottie } from '@crello/react-lottie';
+import { Player } from '@lottiefiles/react-lottie-player';
+
 // import db from '../../../db.json';
 import Widget from '../../components/Widget';
 import QuizLogo from '../../components/QuizLogo';
@@ -10,7 +11,7 @@ import AlternativesForm from '../../components/AlternativesForm';
 import Button from '../../components/Button';
 import BackLinkArrow from '../../components/BackLinkArrow';
 
-import loadingAnimation from './animations/loading.json';
+import LoadingCat from '../../../public/assets/lf30_editor_evmcvfy9.json';
 
 function ResultWidget({ results }) {
   return (
@@ -60,11 +61,11 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content style={{ display: 'flex', justifyContent: 'center' }}>
-        <Lottie
-          width="200px"
-          height="200px"
-          className="lottie-container basic"
-          config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+        <Player
+          autoplay
+          loop
+          src={LoadingCat}
+          style={{ height: '300px', width: '300px' }}
         />
       </Widget.Content>
     </Widget>

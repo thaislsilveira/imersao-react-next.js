@@ -120,14 +120,4 @@ Widget.Topic = styled.a`
   }
 `;
 
-Widget.Image = styled.div`
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: ${({ backgroundSize }) => backgroundSize};
-  background-image: url(${({ backgroundImage }) => backgroundImage});
-  flex: 1;
-  height: 300px;
-  background-position: center;
-`;
-
 export default Widget;
