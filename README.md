@@ -5,7 +5,7 @@
 Projeto desenvolvido na Imersão React Next.js da [Alura](https://www.alura.com.br/) - **25 a 29 de janeiro**.
 Um Quiz interativo para você se divertir.
 
-**Repositório da Aula:** <a href="https://github.com/alura-challenges/aluraquiz-base" target="_blank">Código no Curso </a>
+**Repositório da Aula:** <a href="https://github.com/alura-challenges/aluraquiz-base" target="_blank">Código</a>
 
 ### Instruções
 Em caso de download do projeto você precisará baixar as dependências:
