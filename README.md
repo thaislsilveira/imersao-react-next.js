@@ -23,6 +23,6 @@ yarn dev
 ```
 ## Resultado :computer:
 
-![AluraQuiz](https://github.com/thaislsilveira/imersao-react-next.js/blob/main/public/assets/imersao.gif)
+![AluraQuiz](https://github.com/thaislsilveira/imersao-react-next.js/blob/main/public/assets/linkedin.gif)
 
 
